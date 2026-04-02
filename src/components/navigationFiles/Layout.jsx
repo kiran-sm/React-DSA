@@ -5,9 +5,9 @@ export default function Layout() {
   return (
     <div className="flex  ">
       <SideNavigationBar />
-      <main>
+      <div className="flex flex-col items-center gap-4 mt-10 w-full">
         <Outlet />
-      </main>
+      </div>
     </div>
   );
 }

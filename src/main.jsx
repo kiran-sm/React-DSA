@@ -1,11 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App.jsx";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import Home from "./components/Home.jsx";
 import Layout from "./components/navigationFiles/Layout.jsx";
+import Counter from "./components/Counter.jsx";
+import CounterCode from "./components/CounterCode.jsx";
 
 const router = createHashRouter([
   {
@@ -13,8 +14,8 @@ const router = createHashRouter([
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
-      // { path: "about", element: <About /> },
-      // { path: "contact", element: <Contact /> },
+      { path: "counter", element: <Counter /> },
+      { path: "counter-code", element: <CounterCode /> },
     ],
   },
 ]);
