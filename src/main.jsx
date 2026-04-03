@@ -8,7 +8,9 @@ import Layout from "./components/navigationFiles/Layout.jsx";
 import Counter from "./components/Counter.jsx";
 import CounterCode from "./components/CounterCode.jsx";
 import reportWebVitals from "./webVitals/reportWebVitals.js";
-import { sendToAnalytics } from "./webVitals/analytics.js";
+// import { sendToAnalytics } from "./webVitals/analytics.js";
+import TodoList from "./components/TodoList.jsx";
+import TodoListCode from "./components/TodoListCode.jsx";
 
 const router = createHashRouter([
   {
@@ -18,6 +20,8 @@ const router = createHashRouter([
       { index: true, element: <Home /> },
       { path: "counter", element: <Counter /> },
       { path: "counter-code", element: <CounterCode /> },
+      { path: "todo-list", element: <TodoList /> },
+      { path: "todolist-code", element: <TodoListCode /> },
     ],
   },
 ]);
@@ -28,5 +32,5 @@ createRoot(document.getElementById("root")).render(
   </StrictMode>,
 );
 
-reportWebVitals(console.log);
+// reportWebVitals(console.log);
 // reportWebVitals(sendToAnalytics);

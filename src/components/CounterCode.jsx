@@ -1,4 +1,4 @@
-import BackToProgram from "./navigationFiles/BackToProgram";
+import BackToProgram from "./commonComponents/BackToProgram";
 
 const CounterCode = () => {
   const code = `

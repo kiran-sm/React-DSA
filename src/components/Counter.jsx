@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LinkButton from "./navigationFiles/LinkButton";
+import LinkButton from "./commonComponents/LinkButton";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
