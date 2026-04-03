@@ -7,6 +7,8 @@ import Home from "./components/Home.jsx";
 import Layout from "./components/navigationFiles/Layout.jsx";
 import Counter from "./components/Counter.jsx";
 import CounterCode from "./components/CounterCode.jsx";
+import reportWebVitals from "./webVitals/reportWebVitals.js";
+import { sendToAnalytics } from "./webVitals/analytics.js";
 
 const router = createHashRouter([
   {
@@ -25,3 +27,6 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </StrictMode>,
 );
+
+reportWebVitals(console.log);
+// reportWebVitals(sendToAnalytics);
