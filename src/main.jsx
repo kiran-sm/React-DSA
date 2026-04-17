@@ -11,6 +11,8 @@ import reportWebVitals from "./webVitals/reportWebVitals.js";
 // import { sendToAnalytics } from "./webVitals/analytics.js";
 import TodoList from "./components/TodoList.jsx";
 import TodoListCode from "./components/TodoListCode.jsx";
+import BoxSelect from "./components/BoxSelect.jsx";
+import BoxSelectCode from "./components/BoxSelectCode.jsx";
 
 const router = createHashRouter([
   {
@@ -22,6 +24,8 @@ const router = createHashRouter([
       { path: "counter-code", element: <CounterCode /> },
       { path: "todo-list", element: <TodoList /> },
       { path: "todolist-code", element: <TodoListCode /> },
+      { path: "box-select", element: <BoxSelect /> },
+      { path: "box-select-code", element: <BoxSelectCode /> },
     ],
   },
 ]);
