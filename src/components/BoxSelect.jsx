@@ -1,5 +1,6 @@
 import { useState } from "react";
 import LinkButton from "./commonComponents/LinkButton";
+import ShimmerEffect from "./commonComponents/ShimmerEffect";
 
 const BoxSelect = () => {
   const [activeBoxes, setActiveBoxes] = useState([]);

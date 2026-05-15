@@ -1,20 +1,25 @@
-import { StrictMode } from "react";
+import { lazy, StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createHashRouter, RouterProvider } from "react-router-dom";
+import ShimmerEffect from "./components/commonComponents/ShimmerEffect.jsx";
 
-import Home from "./components/Home.jsx";
-import Layout from "./components/navigationFiles/Layout.jsx";
-import Counter from "./components/Counter.jsx";
-import CounterCode from "./components/CounterCode.jsx";
-import reportWebVitals from "./webVitals/reportWebVitals.js";
+// lazy only works for React components, not utility functions. reportWebVitals and sendToAnalytics are regular JS functions, so use normal import:
+import Layout from "./components/navigationFiles/Layout.jsx"; // ✅ not lazy
+// import reportWebVitals from "./webVitals/reportWebVitals.js";
 // import { sendToAnalytics } from "./webVitals/analytics.js";
-import TodoList from "./components/TodoList.jsx";
-import TodoListCode from "./components/TodoListCode.jsx";
-import BoxSelect from "./components/BoxSelect.jsx";
-import BoxSelectCode from "./components/BoxSelectCode.jsx";
-import ImagesGallery from "./components/ImagesGallery.jsx";
-import ImagesGalleyCode from "./components/ImagesGalleyCode.jsx";
+
+const Home = lazy(() => import("./components/Home.jsx"));
+const Counter = lazy(() => import("./components/Counter.jsx"));
+const CounterCode = lazy(() => import("./components/CounterCode.jsx"));
+const TodoList = lazy(() => import("./components/TodoList.jsx"));
+const TodoListCode = lazy(() => import("./components/TodoListCode.jsx"));
+const BoxSelect = lazy(() => import("./components/BoxSelect.jsx"));
+const BoxSelectCode = lazy(() => import("./components/BoxSelectCode.jsx"));
+const ImagesGallery = lazy(() => import("./components/ImagesGallery.jsx"));
+const ImagesGalleyCode = lazy(
+  () => import("./components/ImagesGalleyCode.jsx"),
+);
 
 const router = createHashRouter([
   {
@@ -36,7 +41,9 @@ const router = createHashRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <Suspense fallback={<ShimmerEffect />}>
+      <RouterProvider router={router} />
+    </Suspense>
   </StrictMode>,
 );
 

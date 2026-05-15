@@ -22,7 +22,7 @@ const SideNavigationBar = () => {
 
       {menuIsOpen && (
         <div className="bg-white w-48 shadow-2xl absolute h-full sm:relative sm:h-stretch border-r border-gray-100">
-          <nav className="flex flex-col gap-1 mx-3 w-auto mt-8">
+          <nav className="flex flex-col gap-1 mx-3 w-auto mt-8 fixed">
             <NavLink to="/" className={navLinkClass}>
               Home
             </NavLink>

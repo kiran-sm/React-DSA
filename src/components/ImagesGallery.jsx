@@ -54,7 +54,7 @@ const ImagesGallery = () => {
         Images Gallery - Lazy Loading {photoDetails.length}
       </h1>
       <LinkButton to="/images-gallery-code" />
-      <div className="flex w-auto flex-wrap flex-row gap-4">
+      <div className="flex w-auto flex-wrap flex-row gap-4 mx-4">
         {photoDetails.map((photo) => (
           <span key={photo.id}>
             <img
