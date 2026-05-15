@@ -68,8 +68,8 @@ const BoxSelect = () => {
 export default BoxSelect;
 `;
   return (
-    <div className="bg-gray-100 p-8 rounded-md overflow-x-auto w-full">
-      <pre>
+    <div className="bg-gray-100 p-8 rounded-md overflow-x-auto w-full ">
+      <pre className="whitespace-pre-wrap break-all">
         <code>{code}</code>
       </pre>
       <BackToProgram to="/box-select" />

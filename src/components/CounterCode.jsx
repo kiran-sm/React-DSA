@@ -37,7 +37,7 @@ export default Counter;
 
   return (
     <div className="bg-gray-100 p-8 rounded-md overflow-x-auto w-full">
-      <pre>
+      <pre className="whitespace-pre-wrap break-all">
         <code>{code}</code>
       </pre>
       <BackToProgram to="/counter" />

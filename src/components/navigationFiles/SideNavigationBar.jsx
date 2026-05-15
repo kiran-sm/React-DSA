@@ -35,6 +35,9 @@ const SideNavigationBar = () => {
             <NavLink to="/box-select" className={navLinkClass}>
               Box-Select
             </NavLink>
+            <NavLink to="/images-gallery" className={navLinkClass}>
+              Images Gallery
+            </NavLink>
           </nav>
         </div>
       )}

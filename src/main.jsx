@@ -13,6 +13,8 @@ import TodoList from "./components/TodoList.jsx";
 import TodoListCode from "./components/TodoListCode.jsx";
 import BoxSelect from "./components/BoxSelect.jsx";
 import BoxSelectCode from "./components/BoxSelectCode.jsx";
+import ImagesGallery from "./components/ImagesGallery.jsx";
+import ImagesGalleyCode from "./components/ImagesGalleyCode.jsx";
 
 const router = createHashRouter([
   {
@@ -26,6 +28,8 @@ const router = createHashRouter([
       { path: "todolist-code", element: <TodoListCode /> },
       { path: "box-select", element: <BoxSelect /> },
       { path: "box-select-code", element: <BoxSelectCode /> },
+      { path: "images-gallery", element: <ImagesGallery /> },
+      { path: "images-gallery-code", element: <ImagesGalleyCode /> },
     ],
   },
 ]);
