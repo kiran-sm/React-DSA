@@ -1,5 +1,6 @@
 import { lazy, StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
+import "./i18n";
 import "./index.css";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import ShimmerEffect from "./components/commonComponents/ShimmerEffect.jsx";

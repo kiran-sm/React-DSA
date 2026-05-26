@@ -1,0 +1,32 @@
+{
+  "home": {
+    "title": "Welcome",
+    "description": "Select a topic to get started"
+  },
+  "nav": {
+    "home": "Home",
+    "counter": "Counter",
+    "todoList": "Todo List",
+    "boxSelect": "Box Select",
+    "imagesGallery": "Images Gallery"
+  },
+  "counter": {
+    "title": "Counter",
+    "increment": "Increment",
+    "decrement": "Decrement",
+    "reset": "Reset",
+    "count": "Count"
+  },
+  "todo": {
+    "title": "Todo List",
+    "addPlaceholder": "Add a new task...",
+    "addButton": "Add",
+    "deleteButton": "Delete",
+    "emptyMessage": "No tasks yet!"
+  },
+  "common": {
+    "backToProgram": "Back to Program",
+    "viewCode": "View Code",
+    "loading": "Loading..."
+  }
+}

@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import LinkButton from "./commonComponents/LinkButton";
+import { useTranslation } from "react-i18next";
+import Language from "./Language";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col items-center gap-4">
+      <Language />
       <h1 className="text-2xl font-bold">Counter</h1>
+      <h1 className="text-2xl font-bold">{t("counter.title")}</h1>
       <div className="flex items-center gap-4">
         <button
           className="border px-2 rounded-md hover:bg-green-100 hover:border-green-500 transition-colors duration-300"

@@ -1,0 +1,32 @@
+{
+  "home": {
+    "title": "ಸ್ವಾಗತ",
+    "description": "ಪ್ರಾರಂಭಿಸಲು ಒಂದು ವಿಷಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+  },
+  "nav": {
+    "home": "ಮುಖಪುಟ",
+    "counter": "ಎಣಿಕೆಗಾರ",
+    "todoList": "ಕಾರ್ಯಪಟ್ಟಿ",
+    "boxSelect": "ಬಾಕ್ಸ್ ಆಯ್ಕೆ",
+    "imagesGallery": "ಚಿತ್ರ ಗ್ಯಾಲರಿ"
+  },
+  "counter": {
+    "title": "ಎಣಿಕೆಗಾರ",
+    "increment": "ಹೆಚ್ಚಿಸು",
+    "decrement": "ಕಡಿಮೆ ಮಾಡು",
+    "reset": "ಮರುಹೊಂದಿಸು",
+    "count": "ಎಣಿಕೆ"
+  },
+  "todo": {
+    "title": "ಕಾರ್ಯಪಟ್ಟಿ",
+    "addPlaceholder": "ಹೊಸ ಕಾರ್ಯವನ್ನು ಸೇರಿಸಿ...",
+    "addButton": "ಸೇರಿಸು",
+    "deleteButton": "ಅಳಿಸು",
+    "emptyMessage": "ಇನ್ನೂ ಯಾವುದೇ ಕಾರ್ಯಗಳಿಲ್ಲ!"
+  },
+  "common": {
+    "backToProgram": "ಪ್ರೋಗ್ರಾಂಗೆ ಹಿಂತಿರುಗಿ",
+    "viewCode": "ಕೋಡ್ ವೀಕ್ಷಿಸಿ",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+  }
+}
