@@ -1,1 +1,0 @@
-import{j as o,L as e}from"./index-C3aL4lWz.js";const a=({to:r})=>o.jsx(e,{to:r,className:"text-blue-500  border px-3 rounded-md hover:bg-blue-100 hover:border-blue-500 hover:text-black transition-colors duration-300 py-1 mt-4 inline-block",children:"Back to Program"});export{a as B};

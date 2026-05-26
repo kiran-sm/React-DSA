@@ -1,4 +1,4 @@
-import{j as e}from"./index-C3aL4lWz.js";import{B as t}from"./BackToProgram-CNr6a7qW.js";const n=()=>e.jsxs("div",{className:"bg-gray-100 p-8 rounded-md overflow-x-auto w-full ",children:[e.jsx("h1",{children:"Images Gallery Code"}),e.jsx("pre",{className:"whitespace-pre-wrap break-all",children:e.jsx("code",{children:`
+import{j as e}from"./index-Cc36IQa3.js";import{B as t}from"./BackToProgram-DzHzA7QB.js";const n=()=>e.jsxs("div",{className:"bg-gray-100 p-8 rounded-md overflow-x-auto w-full ",children:[e.jsx("h1",{children:"Images Gallery Code"}),e.jsx("pre",{className:"whitespace-pre-wrap break-all",children:e.jsx("code",{children:`
 import React, { useEffect, useState, useRef } from "react";
 import LinkButton from "./commonComponents/LinkButton";
 import BackToProgram from './commonComponents/BackToProgram';

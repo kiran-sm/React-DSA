@@ -1,4 +1,4 @@
-import{j as e}from"./index-C3aL4lWz.js";import{B as t}from"./BackToProgram-CNr6a7qW.js";const a=()=>e.jsxs("div",{className:"bg-gray-100 p-8 rounded-md overflow-x-auto w-full",children:[e.jsx("pre",{className:"whitespace-pre-wrap break-all",children:e.jsx("code",{children:`const TodoList = () => {
+import{j as e}from"./index-Cc36IQa3.js";import{B as t}from"./BackToProgram-DzHzA7QB.js";const a=()=>e.jsxs("div",{className:"bg-gray-100 p-8 rounded-md overflow-x-auto w-full",children:[e.jsx("pre",{className:"whitespace-pre-wrap break-all",children:e.jsx("code",{children:`const TodoList = () => {
   const [todos, setTodos] = useState([]);
   const [inputText, setInputText] = useState("");
 

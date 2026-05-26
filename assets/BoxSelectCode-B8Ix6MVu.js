@@ -1,4 +1,4 @@
-import{j as e}from"./index-C3aL4lWz.js";import{B as r}from"./BackToProgram-CNr6a7qW.js";const o=()=>e.jsxs("div",{className:"bg-gray-100 p-8 rounded-md overflow-x-auto w-full ",children:[e.jsx("pre",{className:"whitespace-pre-wrap break-all",children:e.jsx("code",{children:`
+import{j as e}from"./index-Cc36IQa3.js";import{B as r}from"./BackToProgram-DzHzA7QB.js";const o=()=>e.jsxs("div",{className:"bg-gray-100 p-8 rounded-md overflow-x-auto w-full ",children:[e.jsx("pre",{className:"whitespace-pre-wrap break-all",children:e.jsx("code",{children:`
 import { useState } from "react";
 
 const BoxSelect = () => {
